@@ -1,0 +1,85 @@
+.link {
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 30px;
+  width: 350px;
+  height: 407px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 24px;
+}
+
+.card:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.card__image {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content__row:first-child {
+  height: 40px;
+}
+
+.card__content__title {
+  font-weight: 600;
+  font-size: 17px;
+  color: #1c1c27;
+}
+
+.card__content__button {
+  font-weight: 600;
+  font-size: 17px;
+  color: #000;
+}
+
+.card__content__button:hover{
+  text-decoration: underline;
+}
+
+.card__content__rate {
+  font-weight: 600;
+  font-size: 17px;
+  color: #838383;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.card__content__price {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffa542;
+}
+
+.card__content__price_discount {
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #ffce7f;
+  text-align: end;
+}

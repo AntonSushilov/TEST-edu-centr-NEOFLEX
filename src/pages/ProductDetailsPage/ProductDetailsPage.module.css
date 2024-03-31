@@ -1,0 +1,14 @@
+.product_details_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  width: 1130px;
+  align-items: center;
+  
+}
